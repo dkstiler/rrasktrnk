@@ -5,7 +5,7 @@ use App\Controller\AppController;
 
 class TopUpTransactionsController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/TopUpTransactions/";   
+    public $base         = "Access Providers/Controllers/TopUpTransactions/";   
     protected $owner_tree   = array();
     protected $main_model   = 'TopUpTransactions';
   

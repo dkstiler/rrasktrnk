@@ -10,8 +10,8 @@ use Cake\Utility\Inflector;
 
 class TopUpsController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/TopUps/";   
-    protected $owner_tree   = array();
+    public $base            = "Access Providers/Controllers/TopUps/";   
+    protected $owner_tree   = [];
     protected $main_model   = 'TopUps';
   
     public function initialize(){  

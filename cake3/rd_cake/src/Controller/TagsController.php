@@ -10,9 +10,9 @@ use Cake\Utility\Inflector;
 
 class TagsController extends AppController{
   
-    protected $base  = "Access Providers/Controllers/Tags/";
+    public $base  = "Access Providers/Controllers/Tags/";
     
-    protected $owner_tree = array();
+    protected $owner_tree = [];
     protected $main_model = 'Tags';
   
     public function initialize(){  

@@ -11,7 +11,7 @@ use Cake\Utility\Inflector;
 
 class DataCollectorsController extends AppController{
 
-    protected $main_model = 'DataCollectors';
+    public $main_model = 'DataCollectors';
   
     public function initialize(){  
         parent::initialize(); 

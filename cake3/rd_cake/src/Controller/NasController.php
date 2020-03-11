@@ -10,7 +10,7 @@ use Cake\Utility\Inflector;
 
 class NasController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/Nas/";   
+    public $base         = "Access Providers/Controllers/Nas/";   
     protected $owner_tree   = array();
     protected $main_model   = 'Nas';
   

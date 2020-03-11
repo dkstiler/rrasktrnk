@@ -484,7 +484,7 @@ class FreeRadiusBehavior extends Behavior {
 
                     if(in_array($key,$this->fr_dates)){   
                         if($value != ''){
-                            $value = $this->_radius_format_date($value,true);
+                            $value = $this->_radius_format_date($value);
                         }else{
                             $value = 'will_be_removed';
                         } 
@@ -677,7 +677,7 @@ class FreeRadiusBehavior extends Behavior {
                     }
                 }
                 if($key == 'expire'){
-                    $value = $this->_radius_format_date($value,true);
+                    $value = $this->_radius_format_date($value);
                 }
                 $this->_add_radcheck_item($username,$this->vChecks["$key"],$value);
             }
@@ -715,9 +715,8 @@ class FreeRadiusBehavior extends Behavior {
                 $this->_add_radcheck_item($username,$this->puChecks["$key"],$value);
             }
         }
-
-        $request = Router::getRequest();
-        $this->_add_radcheck_item($username,'Rd-Device-Owner',$request->data['rd_device_owner']);
+        $request = Router::getRequest(); //FIXME It looks like the newer version of CakePHP does not include added values to $request (28July2019)
+        $this->_add_radcheck_item($username,'Rd-Device-Owner',$entity->rd_device_owner);
         //This is probably not even needed any more
         $this->_add_radcheck_item($username,'Rd-User-Type','device');    
     }

@@ -10,8 +10,8 @@ use Cake\ORM\TableRegistry;
 
 class AcosRightsController extends AppController{
 
-    protected $aco_ap  = 'Access Providers';
-    protected $base    = "Access Providers/Controllers/AcosRights/";   //This is required for Aa component  
+    public $aco_ap  = 'Access Providers';
+    public $base    = "Access Providers/Controllers/AcosRights/";   //This is required for Aa component  
   
     public function initialize(){  
         parent::initialize();           

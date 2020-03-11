@@ -13,8 +13,8 @@ use Cake\Mailer\Email;
 
 class VouchersController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/Vouchers/";   
-    protected $owner_tree   = array();
+    public $base            = "Access Providers/Controllers/Vouchers/";   
+    protected $owner_tree   = [];
     protected $main_model   = 'Vouchers';
   
     public function initialize(){  

@@ -11,7 +11,7 @@ use Cake\Utility\Inflector;
 
 class RealmsController extends AppController{
   
-    protected $base  = "Access Providers/Controllers/Realms/";
+    public $base  = "Access Providers/Controllers/Realms/";
     
     protected $owner_tree = array();
     protected $main_model = 'Realms';

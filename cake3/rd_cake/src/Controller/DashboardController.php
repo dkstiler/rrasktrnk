@@ -8,7 +8,7 @@ use Cake\Core\Configure\Engine\PhpConfig;
 
 class DashboardController extends AppController{
   
-    protected $base  = "Access Providers/Controllers/Dashboard/";
+    public $base  = "Access Providers/Controllers/Dashboard/";
     
   
     public function initialize(){  

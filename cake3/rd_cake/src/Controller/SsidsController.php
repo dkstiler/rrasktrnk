@@ -9,9 +9,9 @@ use Cake\Core\Configure\Engine\PhpConfig;
 
 class SsidsController extends AppController{
   
-    protected $base  = "Access Providers/Controllers/Ssids/";
+    public $base  = "Access Providers/Controllers/Ssids/";
     
-    protected $owner_tree = array();
+    protected $owner_tree = [];
   
     public function initialize(){  
         parent::initialize();

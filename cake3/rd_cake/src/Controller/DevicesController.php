@@ -10,7 +10,7 @@ use Cake\Utility\Inflector;
 
 class DevicesController extends AppController{
 
-    protected $base         = "Access Providers/Controllers/Devices/";
+    public $base            = "Access Providers/Controllers/Devices/";
     protected $owner_tree   = array();
     protected $main_model   = 'Devices';
 
