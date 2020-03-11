@@ -20,7 +20,7 @@ use Cake\Utility\Text;
 
 class UnknownDynamicClientsController extends AppController {
 
-    protected $base = "Access Providers/Controllers/UnknownDynamicClients/";
+    public $base = "Access Providers/Controllers/UnknownDynamicClients/";
     protected $owner_tree = array();
     protected $main_model = 'UnknownDynamicClients';
 

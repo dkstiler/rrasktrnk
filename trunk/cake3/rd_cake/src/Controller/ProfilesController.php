@@ -17,7 +17,7 @@ use Cake\Utility\Inflector;
 
 class ProfilesController extends AppController
 {
-    protected $base = "Access Providers/Controllers/Profiles/";
+    public $base = "Access Providers/Controllers/Profiles/";
     protected $owner_tree = array();
     protected $main_model = 'Profiles';
 

@@ -6,7 +6,7 @@ use Cake\I18n\FrozenTime;
 
 class UserStatsController extends AppController {
 
-    protected $base    = "Access Providers/Controllers/UserStats/";
+    public $base    = "Access Providers/Controllers/UserStats/";
     protected $main_model = 'UserStats';
 
     protected  $fields = [

@@ -8,7 +8,7 @@ use Cake\Core\Configure\Engine\PhpConfig;
 
 class FiltersController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/Filters/";   
+    public $base         = "Access Providers/Controllers/Filters/";   
     protected $owner_tree   = array();
     protected $main_model   = 'Filters';
   

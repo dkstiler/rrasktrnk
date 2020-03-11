@@ -14,7 +14,7 @@ use Cake\ORM\TableRegistry;
 
 class ThirdPartyAuthsController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/ThirdPartyAuths/"; 
+    public $base            = "Access Providers/Controllers/ThirdPartyAuths/"; 
     protected $idp_avail    = ['Facebook', 'Google', 'Twitter'];
     protected $cb           = 'third-party-auths/index.json';
     

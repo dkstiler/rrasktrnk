@@ -11,7 +11,7 @@ use Cake\Utility\Inflector;
 
 class DynamicDetailsController extends AppController{
   
-    protected $base  = "Access Providers/Controllers/DynamicDetails/";
+    public $base  = "Access Providers/Controllers/DynamicDetails/";
     
     protected $owner_tree = array();
     

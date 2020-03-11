@@ -10,7 +10,7 @@ use Cake\Utility\Inflector;
 
 class PermanentUsersController extends AppController{
 
-    protected $base         = "Access Providers/Controllers/PermanentUsers/";
+    public $base            = "Access Providers/Controllers/PermanentUsers/";
     protected $owner_tree   = array();
     protected $main_model   = 'PermanentUsers';
 

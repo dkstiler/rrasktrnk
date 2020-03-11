@@ -8,7 +8,7 @@ use Exception;
 
 class DynamicClientsController extends AppController{
   
-    protected $base         = "Access Providers/Controllers/DynamicClients/";   
+    public $base         = "Access Providers/Controllers/DynamicClients/";   
     protected $owner_tree   = array();
     protected $main_model   = 'DynamicClients';
   

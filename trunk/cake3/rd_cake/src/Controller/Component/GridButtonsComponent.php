@@ -235,7 +235,7 @@ class GridButtonsComponent extends Component {
             $d  = $this->_fetchDocument();
             $a  = $this->_fetchDynamicDetailExtras();
             $dc = $this->_fetchDynamicDetailDataCollection();
-            $menu = array($b,$d,$a);
+            $menu = [$b,$d,$dc,$a];
         }
         if($type == 'nas'){
             $b  = $this->_fetchBasic('disabled',true);

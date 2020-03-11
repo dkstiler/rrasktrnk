@@ -8,8 +8,8 @@ use Cake\I18n\FrozenTime;
 
 class DataUsagesController extends AppController {
 
-    public $main_model        = 'DataUsage';
-    protected $base     = "Access Providers/Controllers/DataUsage/";
+    public $main_model      = 'DataUsage';
+    public $base            = "Access Providers/Controllers/DataUsage/";
     
     protected   $type           = false;
     protected   $item_name      = false;
