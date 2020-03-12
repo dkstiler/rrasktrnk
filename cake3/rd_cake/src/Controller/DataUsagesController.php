@@ -95,7 +95,7 @@ class DataUsagesController extends AppController {
             $this->loadModel('Radaccts');
             $q_acct = $this->Radaccts->find()->where([
                 'Radaccts.realm' => $this->item_name,
-                'Radaccts.acctstoptime' => NULL
+                'Radaccts.acctstoptime IS NULL'
             ])->all();
 
             foreach($q_acct as $i){
