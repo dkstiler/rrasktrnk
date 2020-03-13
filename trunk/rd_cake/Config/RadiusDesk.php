@@ -35,7 +35,7 @@ $config['dynamic']['start_ip']                     = '10.120.0.1'; //Make this a
 
 //FR3
 $config['freeradius']['path_to_dictionary_files']   = '/usr/share/freeradius/';
-$config['freeradius']['main_dictionary_file']       = '/etc/freeradius/dictionary';
+$config['freeradius']['main_dictionary_file']       = '/etc/freeradius/3.0/dictionary';
 $config['freeradius']['radclient']                  = '/usr/bin/radclient';
 
 
